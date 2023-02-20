@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="calculator">
+      <div class="display">
+        <div class="display-output"></div>
+        <div class="display-input"></div>
+      </div>
+      <div class="buttons">
+        <div class="buttons-row">
+          <button id="allClear" class="button double-button">AC</button>
+          <button id="backspace" class="button">&#129056;</button>
+          <button data-operation="/" class="button">&divide;</button>
+        </div>
+        <div class="buttons-row">
+          <button data-number class="button">7</button>
+          <button data-number class="button">8</button>
+          <button data-number class="button">9</button>
+          <button data-operation="*" class="button">&times;</button>
+        </div>
+        <div class="buttons-row">
+          <button data-number class="button">4</button>
+          <button data-number class="button">5</button>
+          <button data-number class="button">6</button>
+          <button data-operation="-" class="button">&minus;</button>
+        </div>
+        <div class="buttons-row">
+          <button data-number class="button">1</button>
+          <button data-number class="button">2</button>
+          <button data-number class="button">3</button>
+          <button data-operation="+" class="button">&plus;</button>
+        </div>
+        <div class="buttons-row">
+          <button data-number class="button">0</button>
+          <button data-number class="button">.</button>
+          <button id="equals" class="button double-button">&equals;</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
