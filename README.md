@@ -10,7 +10,7 @@
 
 ![calculator image](/calculator_image.jpg)
 
-<p style="text-align: center">A calculator with basic mathematical operations with an interesting design.</p>
+<p style="text-align: center">A <a href="https://lazo2212.github.io/Basic_calculator/">calculator</a> with basic mathematical operations with an interesting design.</p>
 
 <br>
 
