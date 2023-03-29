@@ -1,3 +1,12 @@
+// Variables and selectors
+const displayOutput = document.querySelector('.display-output');
+const displayInput = document.querySelector('.display-input');
+const allClearButton = document.querySelector('#allClear');
+const backspaceButton = document.querySelector('#backspace');
+const numberButtons = document.querySelectorAll('[data-number]');
+const operationButtons = document.querySelectorAll('[data-operation]');
+const equalsButton = document.querySelector('#equals');
+
 class Calculator {
   constructor(displayOutput, displayInput) {
     this.displayOutput = displayOutput;
@@ -71,15 +80,6 @@ class Calculator {
     this.displayOutput.innerHTML = sum + ' =';
   }
 }
-
-// Variables and selectors
-const displayOutput = document.querySelector('.display-output');
-const displayInput = document.querySelector('.display-input');
-const allClearButton = document.querySelector('#allClear');
-const backspaceButton = document.querySelector('#backspace');
-const numberButtons = document.querySelectorAll('[data-number]');
-const operationButtons = document.querySelectorAll('[data-operation]');
-const equalsButton = document.querySelector('#equals');
 
 const calculator = new Calculator(displayOutput, displayInput);
 
